@@ -95,8 +95,8 @@ fn main() {
     
     let mut n: u8 = random!(0, 8); 
     let party_size = n; 
-    let name = String::from("Xisen Tian"); 
-    let email = String::from("xisen@gmail.com"); 
+    let name = String::from("Xisen"); 
+    let email = String::from("blah@gmail.com"); 
     let i:u8 = 1; 
     let xisen = Person{name, party_size, interest:i, email}; 
 
